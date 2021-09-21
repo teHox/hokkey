@@ -1,5 +1,13 @@
 @charset "UTF-8";
 @import url("./nullstyle.css");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Manifold";
   src: url("../../fonts/logo/ManifoldCFExtended-Bold.eot");
@@ -1715,7 +1723,7 @@ body {
   font-size: 32px;
   line-height: 100%;
   text-transform: uppercase;
-  color: #000;
+  color: #C3C9CE;
 }
 .info__link:hover {
   color: #000;

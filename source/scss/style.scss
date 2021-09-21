@@ -1,5 +1,11 @@
 @import url("./nullstyle.css");
 
+html{
+	scroll-behavior: smooth;
+}
+body{
+  scroll-behavior: smooth;
+}
 // fonts
 @font-face {
   font-family: "Manifold";
@@ -1478,7 +1484,7 @@ body {
     font-size: 32px;
     line-height: 100%;
     text-transform: uppercase;
-    color: #000;
+    color: #C3C9CE;
   }
   &__link:hover {
     color: #000;
